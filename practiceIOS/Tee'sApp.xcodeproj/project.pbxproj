@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1687EC290B0784003E1BA1 /* LandPageOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1687EB290B0784003E1BA1 /* LandPageOne.storyboard */; };
+		2C1687EE290B1110003E1BA1 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1687ED290B1110003E1BA1 /* ViewControllerB.swift */; };
+		2C6434EB2912FE120054803F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6434EA2912FE120054803F /* NetworkManager.swift */; };
+		2C891345291AD864009206F5 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C891344291AD864009206F5 /* InfoViewModel.swift */; };
+		2C9ECD9E29087AA7002A9E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECD9D29087AA7002A9E52 /* AppDelegate.swift */; };
+		2C9ECDA029087AA7002A9E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECD9F29087AA7002A9E52 /* SceneDelegate.swift */; };
+		2C9ECDA229087AA7002A9E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECDA129087AA7002A9E52 /* ViewController.swift */; };
+		2C9ECDA529087AA7002A9E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ECDA329087AA7002A9E52 /* Main.storyboard */; };
+		2C9ECDA729087AAA002A9E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ECDA629087AAA002A9E52 /* Assets.xcassets */; };
+		2C9ECDAA29087AAA002A9E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9ECDA829087AAA002A9E52 /* LaunchScreen.storyboard */; };
+		2C9ECDB529087AAA002A9E52 /* Tee_sAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECDB429087AAA002A9E52 /* Tee_sAppTests.swift */; };
+		2C9ECDBF29087AAB002A9E52 /* Tee_sAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECDBE29087AAB002A9E52 /* Tee_sAppUITests.swift */; };
+		2C9ECDC129087AAB002A9E52 /* Tee_sAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECDC029087AAB002A9E52 /* Tee_sAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C9ECDB129087AAA002A9E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9ECD9229087AA7002A9E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9ECD9929087AA7002A9E52;
+			remoteInfo = "Tee'sApp";
+		};
+		2C9ECDBB29087AAB002A9E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9ECD9229087AA7002A9E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9ECD9929087AA7002A9E52;
+			remoteInfo = "Tee'sApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1687EB290B0784003E1BA1 /* LandPageOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandPageOne.storyboard; sourceTree = "<group>"; };
+		2C1687ED290B1110003E1BA1 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		2C6434EA2912FE120054803F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2C891344291AD864009206F5 /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		2C9ECD9A29087AA7002A9E52 /* Tee'sApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tee'sApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9ECD9D29087AA7002A9E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C9ECD9F29087AA7002A9E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C9ECDA129087AA7002A9E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C9ECDA429087AA7002A9E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C9ECDA629087AAA002A9E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C9ECDA929087AAA002A9E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C9ECDAB29087AAA002A9E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9ECDB029087AAA002A9E52 /* Tee'sAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tee'sAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9ECDB429087AAA002A9E52 /* Tee_sAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tee_sAppTests.swift; sourceTree = "<group>"; };
+		2C9ECDBA29087AAB002A9E52 /* Tee'sAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tee'sAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9ECDBE29087AAB002A9E52 /* Tee_sAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tee_sAppUITests.swift; sourceTree = "<group>"; };
+		2C9ECDC029087AAB002A9E52 /* Tee_sAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tee_sAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C9ECD9729087AA7002A9E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9ECDAD29087AAA002A9E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9ECDB729087AAB002A9E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C891342291AD3A2009206F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ECDA129087AA7002A9E52 /* ViewController.swift */,
+				2C1687ED290B1110003E1BA1 /* ViewControllerB.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C891343291AD3C4009206F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C6434EA2912FE120054803F /* NetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C891346291AD869009206F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C891344291AD864009206F5 /* InfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2C9ECD9129087AA7002A9E52 = {
+			isa = PBXGroup;
+			children = (
+				2C9ECD9C29087AA7002A9E52 /* Tee'sApp */,
+				2C9ECDB329087AAA002A9E52 /* Tee'sAppTests */,
+				2C9ECDBD29087AAB002A9E52 /* Tee'sAppUITests */,
+				2C9ECD9B29087AA7002A9E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C9ECD9B29087AA7002A9E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ECD9A29087AA7002A9E52 /* Tee'sApp.app */,
+				2C9ECDB029087AAA002A9E52 /* Tee'sAppTests.xctest */,
+				2C9ECDBA29087AAB002A9E52 /* Tee'sAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C9ECD9C29087AA7002A9E52 /* Tee'sApp */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ECD9D29087AA7002A9E52 /* AppDelegate.swift */,
+				2C9ECD9F29087AA7002A9E52 /* SceneDelegate.swift */,
+				2C891342291AD3A2009206F5 /* Controllers */,
+				2CA7073529119A9400597B83 /* Views */,
+				2C9ECDA629087AAA002A9E52 /* Assets.xcassets */,
+				2C9ECDA829087AAA002A9E52 /* LaunchScreen.storyboard */,
+				2C9ECDAB29087AAA002A9E52 /* Info.plist */,
+				2C1687EB290B0784003E1BA1 /* LandPageOne.storyboard */,
+				2C891343291AD3C4009206F5 /* Models */,
+				2C891346291AD869009206F5 /* ViewModels */,
+			);
+			path = "Tee'sApp";
+			sourceTree = "<group>";
+		};
+		2C9ECDB329087AAA002A9E52 /* Tee'sAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ECDB429087AAA002A9E52 /* Tee_sAppTests.swift */,
+			);
+			path = "Tee'sAppTests";
+			sourceTree = "<group>";
+		};
+		2C9ECDBD29087AAB002A9E52 /* Tee'sAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ECDBE29087AAB002A9E52 /* Tee_sAppUITests.swift */,
+				2C9ECDC029087AAB002A9E52 /* Tee_sAppUITestsLaunchTests.swift */,
+			);
+			path = "Tee'sAppUITests";
+			sourceTree = "<group>";
+		};
+		2CA7073529119A9400597B83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C9ECDA329087AA7002A9E52 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C9ECD9929087AA7002A9E52 /* Tee'sApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9ECDC429087AAB002A9E52 /* Build configuration list for PBXNativeTarget "Tee'sApp" */;
+			buildPhases = (
+				2C9ECD9629087AA7002A9E52 /* Sources */,
+				2C9ECD9729087AA7002A9E52 /* Frameworks */,
+				2C9ECD9829087AA7002A9E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tee'sApp";
+			productName = "Tee'sApp";
+			productReference = 2C9ECD9A29087AA7002A9E52 /* Tee'sApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C9ECDAF29087AAA002A9E52 /* Tee'sAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9ECDC729087AAB002A9E52 /* Build configuration list for PBXNativeTarget "Tee'sAppTests" */;
+			buildPhases = (
+				2C9ECDAC29087AAA002A9E52 /* Sources */,
+				2C9ECDAD29087AAA002A9E52 /* Frameworks */,
+				2C9ECDAE29087AAA002A9E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C9ECDB229087AAA002A9E52 /* PBXTargetDependency */,
+			);
+			name = "Tee'sAppTests";
+			productName = "Tee'sAppTests";
+			productReference = 2C9ECDB029087AAA002A9E52 /* Tee'sAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C9ECDB929087AAB002A9E52 /* Tee'sAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9ECDCA29087AAB002A9E52 /* Build configuration list for PBXNativeTarget "Tee'sAppUITests" */;
+			buildPhases = (
+				2C9ECDB629087AAB002A9E52 /* Sources */,
+				2C9ECDB729087AAB002A9E52 /* Frameworks */,
+				2C9ECDB829087AAB002A9E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C9ECDBC29087AAB002A9E52 /* PBXTargetDependency */,
+			);
+			name = "Tee'sAppUITests";
+			productName = "Tee'sAppUITests";
+			productReference = 2C9ECDBA29087AAB002A9E52 /* Tee'sAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C9ECD9229087AA7002A9E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2C9ECD9929087AA7002A9E52 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2C9ECDAF29087AAA002A9E52 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2C9ECD9929087AA7002A9E52;
+					};
+					2C9ECDB929087AAB002A9E52 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2C9ECD9929087AA7002A9E52;
+					};
+				};
+			};
+			buildConfigurationList = 2C9ECD9529087AA7002A9E52 /* Build configuration list for PBXProject "Tee'sApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C9ECD9129087AA7002A9E52;
+			productRefGroup = 2C9ECD9B29087AA7002A9E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C9ECD9929087AA7002A9E52 /* Tee'sApp */,
+				2C9ECDAF29087AAA002A9E52 /* Tee'sAppTests */,
+				2C9ECDB929087AAB002A9E52 /* Tee'sAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C9ECD9829087AA7002A9E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9ECDAA29087AAA002A9E52 /* LaunchScreen.storyboard in Resources */,
+				2C9ECDA729087AAA002A9E52 /* Assets.xcassets in Resources */,
+				2C9ECDA529087AA7002A9E52 /* Main.storyboard in Resources */,
+				2C1687EC290B0784003E1BA1 /* LandPageOne.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9ECDAE29087AAA002A9E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9ECDB829087AAB002A9E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C9ECD9629087AA7002A9E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9ECDA229087AA7002A9E52 /* ViewController.swift in Sources */,
+				2C9ECD9E29087AA7002A9E52 /* AppDelegate.swift in Sources */,
+				2C891345291AD864009206F5 /* InfoViewModel.swift in Sources */,
+				2C9ECDA029087AA7002A9E52 /* SceneDelegate.swift in Sources */,
+				2C6434EB2912FE120054803F /* NetworkManager.swift in Sources */,
+				2C1687EE290B1110003E1BA1 /* ViewControllerB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9ECDAC29087AAA002A9E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9ECDB529087AAA002A9E52 /* Tee_sAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9ECDB629087AAB002A9E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9ECDC129087AAB002A9E52 /* Tee_sAppUITestsLaunchTests.swift in Sources */,
+				2C9ECDBF29087AAB002A9E52 /* Tee_sAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C9ECDB229087AAA002A9E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C9ECD9929087AA7002A9E52 /* Tee'sApp */;
+			targetProxy = 2C9ECDB129087AAA002A9E52 /* PBXContainerItemProxy */;
+		};
+		2C9ECDBC29087AAB002A9E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C9ECD9929087AA7002A9E52 /* Tee'sApp */;
+			targetProxy = 2C9ECDBB29087AAB002A9E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C9ECDA329087AA7002A9E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9ECDA429087AA7002A9E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C9ECDA829087AAA002A9E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9ECDA929087AAA002A9E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C9ECDC229087AAB002A9E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C9ECDC329087AAB002A9E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C9ECDC529087AAB002A9E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tee'sApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalia.Tee-sApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C9ECDC629087AAB002A9E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tee'sApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalia.Tee-sApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C9ECDC829087AAB002A9E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalia.Tee-sAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tee'sApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tee'sApp";
+			};
+			name = Debug;
+		};
+		2C9ECDC929087AAB002A9E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalia.Tee-sAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tee'sApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tee'sApp";
+			};
+			name = Release;
+		};
+		2C9ECDCB29087AAB002A9E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalia.Tee-sAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tee'sApp";
+			};
+			name = Debug;
+		};
+		2C9ECDCC29087AAB002A9E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thalia.Tee-sAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tee'sApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C9ECD9529087AA7002A9E52 /* Build configuration list for PBXProject "Tee'sApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9ECDC229087AAB002A9E52 /* Debug */,
+				2C9ECDC329087AAB002A9E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9ECDC429087AAB002A9E52 /* Build configuration list for PBXNativeTarget "Tee'sApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9ECDC529087AAB002A9E52 /* Debug */,
+				2C9ECDC629087AAB002A9E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9ECDC729087AAB002A9E52 /* Build configuration list for PBXNativeTarget "Tee'sAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9ECDC829087AAB002A9E52 /* Debug */,
+				2C9ECDC929087AAB002A9E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9ECDCA29087AAB002A9E52 /* Build configuration list for PBXNativeTarget "Tee'sAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9ECDCB29087AAB002A9E52 /* Debug */,
+				2C9ECDCC29087AAB002A9E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C9ECD9229087AA7002A9E52 /* Project object */;
+}
